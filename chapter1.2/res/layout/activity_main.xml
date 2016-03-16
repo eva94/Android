@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   >
+   
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="红色"
+            android:layout_gravity="center"
+            android:background="#aa0000"
+            android:layout_weight="1"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="蓝色"
+            android:background="#0000aa"
+            android:layout_gravity="top|center"
+            android:layout_weight="1"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="黄色"
+            android:background="#aaaa00"
+            android:layout_gravity="bottom|center"
+            android:layout_weight="1"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="绿色"
+            android:background="#00aa00"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="1"
+            />
+       
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="第一行"
+            android:layout_weight="1"
+            />
+          <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="第二行"
+            android:layout_weight="1"
+            />
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="第三行"
+            android:layout_weight="1"
+            />
+              <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="第四行"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</LinearLayout>
