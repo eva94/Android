@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center">
+    
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/artclestyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="700px"
+        android:paddingTop="120px"
+        android:text="@string/artcle" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/check_box"
+        android:text="我同意"
+        android:textSize="22px" />
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:paddingTop="30px"
+        android:src="@drawable/button_state"
+        android:visibility="invisible" >
+
+        </ImageButton>
+        "
+ 
+
+
+</LinearLayout>
