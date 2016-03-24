@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+      
+   		 <item android:id="@+id/search_action"
+           
+            android:actionViewClass="android.widget.SearchView"
+            
+            android:icon="@android:drawable/ic_menu_search"
+            android:showAsAction="ifRoom"
+            android:title="搜索">
+          	
+          </item>  
+          <item
+            android:id="@+id/item1"
+            android:icon="@drawable/icon1"
+            android:showAsAction="ifRoom"
+            android:title="图标一">
+          </item>
+          <item
+            android:id="@+id/item2"
+            android:icon="@drawable/icon2"
+            android:showAsAction="ifRoom"
+            android:title="图标二">
+          </item>
+          <item
+            android:id="@+id/item3"
+            android:icon="@drawable/icon3"
+            android:showAsAction="ifRoom"
+            android:title="图标三">
+          </item>
+         
+        	
+    
+     </menu>
